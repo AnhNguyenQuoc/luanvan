@@ -1,0 +1,102 @@
+.header {
+  width: 100%;
+  height: 80%;
+  background: white;
+  background-image: url("https://cwa.roocdn.com/_next/static/new-brand-burger-desktop@1x.6357da6d.png");
+  background-repeat: no-repeat;
+  background-size: 58%;
+  background-position-x: 70%;
+  background-position-y: 55%; }
+  .header .header-bar nav {
+    width: 100%;
+    height: 60px;
+    background: transparent; }
+    .header .header-bar nav .only-show-mobile {
+      display: none; }
+    .header .header-bar nav div ul .second-header {
+      border-radius: 5px;
+      background: #5DC1BF; }
+      .header .header-bar nav div ul .second-header a {
+        line-height: 35px;
+        color: white;
+        font-family: 'Time New Roman';
+        font-size: 125%; }
+        .header .header-bar nav div ul .second-header a:hover {
+          color: white; }
+      .header .header-bar nav div ul .second-header:hover {
+        background-color: #07c4b4; }
+  .header .header-bar .background-list-restaurant {
+    width: 100%;
+    height: 50vh;
+    background: #5DC1BF; }
+
+.breadcrumb {
+  padding-left: 0px; }
+  .breadcrumb ol {
+    padding-left: 0px; }
+    .breadcrumb ol li {
+      color: white; }
+      .breadcrumb ol li a {
+        color: white; }
+
+.dropdown-loai-thuc-an a {
+  background-color: rgba(0, 0, 0, 0.08);
+  color: white; }
+.dropdown-loai-thuc-an div {
+  border-radius: 5px;
+  padding-top: 0px;
+  width: 250px;
+  height: 35vh;
+  overflow-y: scroll; }
+  .dropdown-loai-thuc-an div a {
+    color: black;
+    background: white;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif; }
+    .dropdown-loai-thuc-an div a span {
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      z-index: 999;
+      background: white; }
+    .dropdown-loai-thuc-an div a:hover span i {
+      color: #5DC1BF; }
+
+.restaurant-card div h5 {
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold; }
+  .restaurant-card div h5 span {
+    border-radius: 15px;
+    border: 1px solid #5DC1BF;
+    padding: 2px;
+    background: #5DC1BF;
+    color: white; }
+.restaurant-card div p {
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #828585; }
+.restaurant-card div a {
+  background: #5DC1BF;
+  color: white; }
+
+.show-restaurant-text-header {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  line-height: 55px;
+  color: white; }
+  .show-restaurant-text-header a {
+    background: rgba(0, 0, 0, 0.08);
+    padding: 5px;
+    border-radius: 1px;
+    text-decoration: none; }
+    .show-restaurant-text-header a span {
+      color: white;
+      font-size: 28px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      line-height: 35px; }
+
+/*# sourceMappingURL=show-restaurant.css.map */

@@ -1,0 +1,146 @@
+
+.header {
+    width: 100%;
+    height: 80%;
+    background: white;
+    background-image: url("https://cwa.roocdn.com/_next/static/new-brand-burger-desktop@1x.6357da6d.png");
+    background-repeat: no-repeat;
+    background-size: 58%;
+    background-position-x: 70%;
+    background-position-y: 55%;
+    .header-bar {
+        nav {
+            width: 100%;
+            height: 60px;
+            background: transparent;
+            .only-show-mobile{
+                display: none;
+            }
+            div {
+                ul {
+                    .second-header {
+                        border-radius: 5px;
+                        background: #5DC1BF;
+                        a {
+                            line-height: 35px;
+                            color: white;
+                            font-family: 'Time New Roman';
+                            font-size: 125%;
+                            &:hover{
+                                color: white;
+                            }
+                        }
+                        &:hover{
+                            background-color: rgb(7, 196, 180);
+                        }
+                    }
+                }
+            }
+        }
+        .background-list-restaurant{
+            width: 100%;
+            height: 50vh;
+            background: #5DC1BF;
+            
+        }
+    }
+}
+
+.breadcrumb{
+    padding-left: 0px;
+    ol{
+        padding-left: 0px;
+        li{
+            color: white;
+            a{
+                color: white;
+            }
+        }
+    }
+}
+
+.dropdown-loai-thuc-an{
+    a {
+        background-color: rgba(0, 0, 0, 0.08);
+        color: white;
+    }
+    div {
+        border-radius: 5px;
+        padding-top: 0px;
+        width: 250px;
+        height: 35vh;
+        overflow-y: scroll;
+        a {
+            color: black;
+            background: white;
+            border-bottom: 1px solid rgb(204, 204, 204);
+            padding: 10px;
+            font-size: 16px;
+            font-family: 'Times New Roman', Times, serif;
+
+            span{
+                border: 1px solid rgb(204, 204, 204);
+                border-radius: 5px;
+                z-index: 999;
+                background: white;
+            }
+            &:hover{
+                span {
+                    i {
+                        color: #5DC1BF;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.restaurant-card{
+    div{
+        h5{
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            span{
+                border-radius: 15px;
+                border: 1px solid #5DC1BF;
+                padding: 2px;
+                background: #5DC1BF;
+                color: white;
+            }
+
+        }
+        p{
+            font-size: 16px;
+            line-height: 19px;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(130, 133, 133);
+        }
+        a{
+            background: #5DC1BF;
+            color: white;
+        }
+    }
+}
+
+.show-restaurant-text-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    line-height: 55px;
+    color: rgb(255, 255, 255);
+    a {
+        background: rgba(0, 0, 0, 0.08);
+        padding: 5px;
+        border-radius: 1px;
+        text-decoration: none;
+        span{
+            color: white;
+            font-size: 28px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            line-height: 35px;
+        }
+    }
+}

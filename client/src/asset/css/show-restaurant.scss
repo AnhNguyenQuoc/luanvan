@@ -1,0 +1,268 @@
+.header {
+    width: 100%;
+    height: 80%;
+    background: white;
+    background-image: url("https://cwa.roocdn.com/_next/static/new-brand-burger-desktop@1x.6357da6d.png");
+    background-repeat: no-repeat;
+    background-size: 58%;
+    background-position-x: 70%;
+    background-position-y: 55%;
+    .header-bar {
+        nav {
+            width: 100%;
+            height: 60px;
+            background: transparent;
+            border-bottom: 1px solid rgb(204, 204, 204);
+            .only-show-mobile{
+                display: none;
+            }
+            div {
+                ul {
+                    .second-header {
+                        border-radius: 5px;
+                        background: #5DC1BF;
+                        a {
+                            line-height: 35px;
+                            color: white;
+                            font-family: 'Time New Roman';
+                            font-size: 125%;
+                            &:hover{
+                                color: white;
+                            }
+                        }
+                        &:hover{
+                            background-color: rgb(7, 196, 180);
+                        }
+                    }
+                }
+            }
+        }
+        .background-list-restaurant{
+            width: 100%;
+            height: 50vh;
+            background: #5DC1BF;
+            
+        }
+    }
+}
+
+.breadcrumb-show{
+    padding-left: 0px;
+    ol{
+        padding-left: 0px;
+        li{
+            color: #5DC1BF;
+            a{
+                color: #5DC1BF;
+            }
+        }
+    }
+}
+
+.main-restaurant-text{
+    h1{
+    color: black;
+    font-size: 28px;
+    line-height: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    }
+    div {
+        .rate{
+            border-radius: 20px;
+            background-color: #5DC1BF;
+            padding: 10px;
+            color: white;
+        }
+        small{
+             font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            line-height: 11px;
+            color: rgb(162, 159, 159);
+        }
+        span{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            line-height: 11px;
+            color: rgb(162, 159, 159);
+        }
+    }
+}
+
+.img-main-restaurant-text{
+              span:first-child{
+                font-size: 16px;
+                line-height: 11px;
+                color: rgb(162, 159, 159);
+                font-family: 'Times New Roman', Times, serif;
+              }  
+              span{
+                  font-family: 'Times New Roman', Times, serif;
+                  font-weight: bold;
+              }
+
+}
+
+.img-main-restaurant {
+    img {
+        border-radius: 10px;
+        height: 200px;
+    }
+}
+
+.main-restaurant{
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.main-menu{
+    background: #F3F5F5;
+    border-bottom: 1px solid  rgb(204, 204, 204);
+}
+
+.menu-item{
+    button{
+        background: white;
+        white-space: normal;
+     div{
+     h5{
+            float: left;
+            font-size: 16px;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 22.4px;
+            padding: 10px;
+        }
+        span{
+            float: left;
+            font-size: 14px;
+            text-align: left;
+            padding: 5px 10px 5px 10px;
+            }
+        }  
+    }
+}
+
+.modal-body{
+    
+    form{
+        button{
+            background: #5DC1BF;
+            color: white;
+        }
+    }
+}
+
+.checkout{
+    button{
+            background: #5DC1BF;
+            color: white;
+    }
+    div{
+        ul{
+            li{
+                a{
+                    i{
+                    color: #5DC1BF;
+                    }
+                  
+                }
+            }
+        }
+    }
+}
+
+.list-checkout-item {
+     border-bottom: 1px solid rgb(204, 204, 204);
+     ul{
+         li{
+             span{
+                 font-size: 14px;
+                 font-weight: bold;
+             }
+         }
+     }
+}
+
+.list-checkout-total{
+    ul{
+        li{
+            span{
+                font-weight: bold;
+            }
+            div{
+                span{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+.comment-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.comment-main{
+    border-radius: 5px;
+        background: rgb(204, 204, 204);
+    .comment-rating{
+    border-radius: 50px;
+    background: #5DC1BF;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    }
+
+}
+
+.comment-card{
+    padding-bottom: 15px;
+    .card-body{
+        h5{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 22px;
+            font-weight: bold;
+            span{
+                background: #5DC1BF;
+                border-radius: 50px;
+                padding: 5px;
+                font-weight: bold;
+                color: white;
+            }
+        }
+    }
+}
+
+.img-container{
+    width:  100%;
+    img {
+        width: 22%;
+    }
+}
+
+.btn-comment{
+    button:first-child{
+        background: #5DC1BF;
+        color: white;
+        border-color: #5DC1BF;
+    }
+}
+
+.modal-comment{
+    .modal-body{
+        form{
+            div{
+                label {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    line-height: 18px;
+                    letter-spacing: normal;
+                    font-size: 16px;
+                    color: black;
+                    font-weight: 400;
+                    }
+            }
+        }
+    }
+}
