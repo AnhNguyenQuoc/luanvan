@@ -5,9 +5,9 @@ import Section1 from '../../components/HomePages/Section1';
 import Section2 from '../../components/HomePages/Section2';
 import Section3 from '../../components/HomePages/Section3';
 import Section4 from '../../components/HomePages/Section4';
-import '../../asset/css/custom.css';
-import '../../asset/css/mobile.css';
-import '../../asset/css/footer.css';
+import '../../styles/css/custom.css';
+import '../../styles/css/mobile.css';
+import '../../styles/css/footer.css';
 
 class HomePages extends Component {
       render() {

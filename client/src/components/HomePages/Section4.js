@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Section4 extends Component {
       render() {
@@ -13,25 +14,25 @@ class Section4 extends Component {
                               <div className="row">
                                     <div className=" col-sm-12 col-md-6 mb-2">
                                           <div className="card mx-auto" style={{ width: '100%' }}>
-                                                <img className="card-img-top" src="/image/deliveryman.jpg" alt="deliveryman" />
+                                                <img className="card-img-top" src="/asset/image/deliveryman.jpg" alt="deliveryman" />
                                                 <div className="card-body">
                                                       <h4 className="card-title">Shipper</h4>
                                                       <p className="card-text">Become a rider and enjoy the freedom to fit work around your life. Plus great fees, perks and
                                 discounts.
                                                       </p>
-                                                      <a href="/" className="btn">Shipper with us</a>
+                                                      <Link to='/shipper' className="btn" onClick={this.forceUpdate}>Shipper with us</Link>
                                                 </div>
                                           </div>
                                     </div>
                                     <div className="col-sm-12 col-md-6 mb-2">
                                           <div className="card mx-auto" style={{ width: '100%' }}>
-                                                <img className="card-img-top" src="/image/restaurant.jpg" alt="restaurant" />
+                                                <img className="card-img-top" src="/asset/image/restaurant.jpg" alt="restaurant" />
                                                 <div className="card-body">
                                                       <h4 className="card-title">Restaurants</h4>
                                                       <p className="card-text">Partner with Deliveroo and reach more customers than ever. We handle delivery, so you can focus
                                 on the food.
                                                       </p>
-                                                      <a href="/" className="btn">Partner with us</a>
+                                                      <Link to='/restaurant' className="btn" onClick={this.forceUpdate}>Parner with us</Link>
                                                 </div>
                                           </div>
                                     </div>

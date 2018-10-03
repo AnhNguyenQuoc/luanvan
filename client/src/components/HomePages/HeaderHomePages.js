@@ -5,7 +5,7 @@ import ContainerBackground from './ContainerBackground';
 class HeaderHomePages extends Component {
       render() {
             return (
-                  <header className="header">
+                  <header className="header" style={{ backgroundColor: '#5DC1BF' }}>
                         <HeaderBarHomePage />
                         <ContainerBackground />
                   </header>

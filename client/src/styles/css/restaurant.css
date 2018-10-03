@@ -1,5 +1,5 @@
 .background-restaurant {
-  background-image: url("../image/restaurant-background.jpg");
+  background-image: url("/asset/image/restaurant-background.jpg");
   background-size: cover; }
 
 .background-restaurant-text div h2 {

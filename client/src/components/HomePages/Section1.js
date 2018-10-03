@@ -15,7 +15,7 @@ class Section1 extends Component {
                               <div className="row">
                                     <div className="col-md-4 col-sm-12">
                                           <div className='img1'>
-                                                <img src='/image/menu1.jpg' className='img-fluid' alt="" />
+                                                <img src='/asset/image/menu1.jpg' className='img-fluid' alt="" />
                                                 <span className='center-text-img'>Thức ăn nhanh</span>
                                           </div>
                                           <div className='text-below'>
@@ -27,7 +27,7 @@ class Section1 extends Component {
                                     </div>
                                     <div className="col-md-4 col-sm-12">
                                           <div className='img1'>
-                                                <img src='/image/menu3.jpg' className='img-fluid' alt="" />
+                                                <img src='/asset/image/menu3.jpg' className='img-fluid' alt="" />
                                                 <span className='center-text-img'>Thức ăn Việt</span>
                                           </div>
                                           <div className='text-below'>
@@ -39,7 +39,7 @@ class Section1 extends Component {
                                     </div>
                                     <div className="col-md-4 col-sm-12">
                                           <div className='img1'>
-                                                <img src='/image/menu2.jpg' className='img-fluid' alt="" />
+                                                <img src='/asset/image/menu2.jpg' className='img-fluid' alt="" />
                                                 <span className='center-text-img'>Trà sữa</span>
                                           </div>
                                           <div className='text-below'>
@@ -53,7 +53,7 @@ class Section1 extends Component {
                               <div className="row mt-5">
                                     <div className="col-md-6 col-sm-12">
                                           <div className="img2">
-                                                <img src="/image/menu4.jpeg" className="img-fluid" alt="food" />
+                                                <img src='/asset/image/menu4.jpeg' className="img-fluid" alt="food" />
                                                 <span className='center-text-img2'>Bánh ngọt</span>
                                           </div>
                                           <div className='text-below'>
@@ -65,7 +65,7 @@ class Section1 extends Component {
                                     </div>
                                     <div className="col-md-6 col-sm-12">
                                           <div className="img2">
-                                                <img src="/image/menu5.jpg" className="img-fluid" alt="food" />
+                                                <img src='/asset/image/menu5.jpg' className="img-fluid" alt="food" />
                                                 <span className='center-text-img2'>Lẩu</span>
                                           </div>
                                           <div className='text-below'>
